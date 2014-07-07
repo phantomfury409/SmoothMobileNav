@@ -12,6 +12,18 @@ body {
 	border-top: 6px solid #1361A9;
 }
 
+#logoHeader {
+	margin-left: 50px;
+	color: #1361A9;
+	font-weight: bold;
+	font-size: 25px;
+	position: absolute;
+}
+
+#leftHeader {
+	float: left;
+}
+
 #page {
 	position: absolute;
 	background: #fff;
@@ -66,11 +78,6 @@ body {
 	transform: translate3d(0px, 0, 0);
 }
 
-#toggle-menu {
-	width: 75px;
-	margin: 15px;
-}
-
 #menu {
 	position: fixed;
 	background: #1361A9;
@@ -92,7 +99,8 @@ body {
 
 #headerWrapper {
 	position: relative;
-	padding: 15px;
+	height: 28px;
+	padding: 10px;
 
 	-moz-box-shadow: 0 10px 30px -5px #000;
 	-webkit-box-shadow: 0 10px 30px -5px #000;
